@@ -16,6 +16,7 @@ class Grid {
     createFloor() {
         for(let i = 1; i <= this.width; i++) {
             let floorCell = document.createElement('div')
+            floorCell.className = 'static'
             this.parentNode.appendChild(floorCell)
         }
     }
