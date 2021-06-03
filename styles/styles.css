@@ -1,0 +1,30 @@
+#main_container {
+    display:flex;
+}
+
+#game_board {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 50vw;
+    height: 100vw;
+}    
+
+#game_board div {
+    width: 10%;
+    height: 5%;
+}
+
+#next_shape {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 20vw;
+    height: 10vw;
+    margin-left: 5vw;
+}
+
+#next_shape div {
+    width: 25%;
+    height: 50%;
+}
